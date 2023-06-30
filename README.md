@@ -6,7 +6,7 @@
 
 ## Strings and String Methods
 
-There are lots of methods supplied with the String class which will allow you to manipulate Strings in a variety of ways. These are similar in many ways to the ones found in JavaScript but often come with their own specific syntax (this is the case with most programming languages).
+There are lots of methods supplied with the String class which will allow you to manipulate Strings in a variety of ways. These are similar in many ways to the ones found in other languages such as JavaScript but they often come with their own specific syntax (this is the case with most programming languages).
 
 ### Defining Strings 
 
@@ -31,11 +31,11 @@ We can do lots of other things once we have a String defined.
 
 ### Accessing Specific Characters from the String
 
-For instance, we can use the `charAt()` to get the character at a given index (with 0 being the first letter).
+We can use the `charAt()` to get the character at a given index (with 0 being the first letter).
 
 `System.out.println(main.name.charAt(4));`
 
-We can't get to the final letter directly however using -1 like this:
+We can't get to the final letter directly however using -1 as we can in some other languages like this:
 
 `System.out.println(main.name.charAt(-1));`
 
