@@ -35,7 +35,7 @@ We can use the `charAt()` to get the character at a given index (with 0 being th
 
 `System.out.println(main.name.charAt(4));`
 
-We can't get to the final letter directly however using -1 as we can in some other languages like this:
+We can't get to the final letter directly however using -1 as we can in some other languages, but we can do something like this instead:
 
 `System.out.println(main.name.charAt(-1));`
 
